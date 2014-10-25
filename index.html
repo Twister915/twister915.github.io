@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Branches of Government</title>
+		<!-- Need to import jQuery, Semantic UI, and handlebars -->
+		<link rel="stylesheet" type="text/css" href="css/semantic.min.css" />
+		<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+		<script src="javascript/semantic.min.js"></script>
+
+		<style>
+		 .font {
+		 	font-family: 'Bree Serif';
+		 	font-size: 20px;
+		 }
+		 .type {
+		 	color: gray;
+		 }
+		 .type:hover {
+		 	color:black;
+		 }
+		 </style>
+
+		 <!--
+		 	<i class="legal icon"></i> - judiciary
+		 	<i class="users icon"></i> - legislative
+		 	<i class="male icon"></i> - executive
+	 	 -->
+
+
+	</head>
+	<body>
+		<center><h1 class="font ui header">Branches of Government</h1></center>
+		<!-- Divide -->
+		<div class="ui horizontal icon divider">
+		  <i class="sitemap icon"></i>
+		</div>
+		<!-- BRANCH TEMPLATE START -->
+		<center>
+			<div class="two wide column">
+				<i class="male icon big circular inverted red"></i>
+			</div>
+			<div class="five wide column">
+				<div class="ui header font red">
+					<h3><b>Executive Branch</b></h3>
+				</div>
+			</div>
+		</center>
+		<div class="ui three column grid">
+			<div class="row">
+				<div class="column">
+					<div class="ui piled segment">
+						<h2 class="ui header green font aligned center">Powers</h2>
+						<div class="divider ui"></div>
+						<div class="font type">
+							<h3>Has the power to...</h3>
+							<ul>
+								<li>Command the Military</li>
+								<li>Veto a bill</li>
+								<li>Appoint Justices and department heads</li>
+								<li>Grant pardons</li>
+								<li>Make decrees and declarations</li>
+								<li>Wage war with the support of Congress</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="ui piled segment">
+						<h2 class="ui header red font aligned center">Checks</h2>
+						<div class="divider ui"></div>
+							<div class="font type">
+								<h3>Legistlative Checks...</h3>
+								<ul>
+									<li>Impeachment by the House</li>
+									<li>Selection of the president and vice president in the event of no majority electoral votes</li>
+									<li>Senate approves some appointments</li>
+									<li>Treaties and ambassadors are approved by the senate</li>
+								</ul>
+							</div>
+							<div class="ui divider horizontal"></div>
+							<div class="font type">
+								<h3>Judicial Checks...</h3>
+								<ul>
+									<li>Judicial review</li>
+									<li>Cheif Justice is the President of the Senate during impeachment</li>
+								</ul>
+							</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="ui piled segment">
+						<h2 class="ui header blue font aligned center">From the Constitution</h2>
+						<div class="divider ui"></div>
+						<p class="font type"><b>Quoted from Article II of the Constitution</b></p>
+						<div class="ui right aligned segment">
+							<i class="quote right icon"></i>
+							<p class="font type"><em>The executive Power shall be vested in a President of the United States of America. He shall hold his Office during the Term of four Years and, together with the Vice President, chosen for the same Term, be elected, as follows... </em><br />
+							</p>
+							</div>
+							<a class="ui font" href="http://www.law.cornell.edu/anncon/html/art2frag1_user.html#art2_hd4">Read more here..</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui horizontal divider icon">
+			<i class="sitemap icon"></i>
+		</div>
+		<center>
+			<div class="two wide column">
+				<i class="book icon big circular inverted green"></i>
+			</div>
+			<div class="five wide column">
+				<div class="ui header font green">
+					<h3><b>Legistlative Branch</b></h3>
+				</div>
+			</div>
+		</center>
+		<div class="ui three column grid">
+			<div class="row">
+				<div class="column">
+					<div class="ui piled segment">
+						<h2 class="ui header green font aligned center">Powers</h2>
+						<div class="divider ui"></div>
+						<div class="font type">
+							<h3>Has the power to...</h3>
+							<ul>
+								<li>Wite and enact laws</li>
+								<li>Declare war</li>
+								<li>Deny presidental appointments</li>
+								<li>The Senate ratifies treaties</li>
+								<li>Override vetoes by the President</li>
+								<li>Start investigations against any branch, especially the executive</li>
+								<li>Sets budget (although the president is <b>responsible for it</b>) and taxes</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="ui piled segment">
+						<h2 class="ui header red font aligned center">Checks</h2>
+						<div class="divider ui"></div>
+							<div class="font type">
+								<h3>Executive Checks...</h3>
+								<ul>
+									<li>The power to veto laws</li>
+									<li>Vice President is President of the Senate</li>
+									<li>Commands the military, dispite the power of war being in Congress</li>
+									<li>Call the congress to session in an emergency</li>
+								</ul>
+							</div>
+							<div class="ui divider horizontal"></div>
+							<div class="font type">
+								<h3>Judicial Checks...</h3>
+								<ul>
+									<li>Judicial review</li>
+									<li>Seats are held only with good behavior</li>
+								</ul>
+							</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="ui piled segment">
+						<h2 class="ui header blue font aligned center">From the Constitution</h2>
+						<div class="divider ui"></div>
+						<p class="font type"><b>Quoted from Article I of the Constitution</b></p>
+						<div class="ui right aligned segment">
+							<i class="quote right icon"></i>
+							<p class="font type"><em>
+								All legislative Powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives... </em><br />
+							</p>
+							</div>
+							<a class="ui font" href="http://www.law.cornell.edu/anncon/html/art1frag1_user.html#art1_hd4">Read more here..</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui horizontal divider icon">
+			<i class="sitemap icon"></i>
+		</div>
+		<center>
+			<div class="two wide column">
+				<i class="legal icon big circular inverted blue"></i>
+			</div>
+			<div class="five wide column">
+				<div class="ui header font blue">
+					<h3><b>Judicial Branch</b></h3>
+				</div>
+			</div>
+		</center>
+		<div class="ui three column grid">
+			<div class="row">
+				<div class="column">
+					<div class="ui piled segment">
+						<h2 class="ui header green font aligned center">Powers</h2>
+						<div class="divider ui"></div>
+						<div class="font type">
+							<h3>Has the power to...</h3>
+							<ul>
+								<li>Determine which laws are unconsitutional</li>
+								<li>Determine how laws apply to disputes</li>
+								<li>Determine how laws should be interpreted</li>
+								<li>Police its own members</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="ui piled segment">
+						<h2 class="ui header red font aligned center">Checks</h2>
+						<div class="divider ui"></div>
+							<div class="font type">
+								<h3>Executive Checks...</h3>
+								<ul>
+									<li>Power to appoint judges</li>
+									<li>Pardon power</li>
+								</ul>
+							</div>
+							<div class="ui divider horizontal"></div>
+							<div class="font type">
+								<h3>Legislative Checks...</h3>
+								<ul>
+									<li>Senate approves federal judges</li>
+									<li>Impeachment power</li>
+									<li>Power to initate consitutional ammendments</li>
+									<li>Power to set jurisdiction of courts</li>
+									<li>Power to change the size of courts</li>
+								</ul>
+							</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="ui piled segment">
+						<h2 class="ui header blue font aligned center">From the Constitution</h2>
+						<div class="divider ui"></div>
+						<p class="font type"><b>Quoted from Article I of the Constitution</b></p>
+						<div class="ui right aligned segment">
+							<i class="quote right icon"></i>
+							<p class="font type"><em>
+								The judicial Power of the United States, shall be vested in one supreme Court, and in such inferior Courts as the Congress may from time to time ordain and establish. The Judges, both of the supreme and inferior Courts, shall hold their Offices during good Behaviour, and shall, at stated Times, receive for their Services, a Compensation, which shall not be diminished during their Continuance in Office... </em><br />
+							</p>
+							</div>
+							<a class="ui font" href="http://www.law.cornell.edu/anncon/html/art3frag1_user.html#art3_sec1">Read more here..</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui horizontal divider icon">
+			<i class="sitemap icon"></i>
+		</div>
+	</body>
+</html>
